@@ -7,6 +7,11 @@ handlers:
     upload: dist/index.html
     secure: always
 
+  - url: /about
+    static_files: dist/about/index.html
+    upload: dist/about/index.html
+    secure: always
+
   - url: /(.*)
     static_files: dist/\1
     upload: dist/(.*)
