@@ -344,6 +344,26 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.2.0.tgz#2cbcf822bf3764c9658c4d2e568bd0c0cb748016"
   integrity sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==
 
+"@datadog/browser-core@4.49.0":
+  version "4.49.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-4.49.0.tgz#583295079408893bc9eb601e05ef524f446949cb"
+  integrity sha512-qTPODRwGJG5eJLYKJ8X18es3zSF0htQhqpoyg3MehGsGfqJofDrDCP45ZfUf2Wk7K2JB2Oo2LvsfUJN0Mg51+g==
+
+"@datadog/browser-rum-core@4.49.0":
+  version "4.49.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-rum-core/-/browser-rum-core-4.49.0.tgz#75fd2675df29d6aa2593fde6cc003187289497bd"
+  integrity sha512-Cy7nGLJOWCGuT5CEW0q1thgOVtZGaQ/36cnr10vMCgPnuKCbyro5hTV2AZsPXkocZWs/CCvUSldmO0rF2oR4vg==
+  dependencies:
+    "@datadog/browser-core" "4.49.0"
+
+"@datadog/browser-rum@4.49.0":
+  version "4.49.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-rum/-/browser-rum-4.49.0.tgz#3b68438dc804f07011e2bfcb63cdcd1ec34d1f4b"
+  integrity sha512-RRN4YA3rB43bhADKwEuG2bMyJE5jyiNO/VJc1D6DZFAHoq63R2ogyXpA9ihMhbD/7ZEpV57QA7wRsCOcrgKKKA==
+  dependencies:
+    "@datadog/browser-core" "4.49.0"
+    "@datadog/browser-rum-core" "4.49.0"
+
 "@esbuild-kit/cjs-loader@^2.4.2":
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@esbuild-kit/cjs-loader/-/cjs-loader-2.4.4.tgz#8638177732e2de258a3243597bfdba082993c442"
