@@ -16,7 +16,7 @@ const handleClickErrorStockButton = () => {
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col items-center">
     <h1 class="text-lg font-bold">About</h1>
     <p class="mt-2 text-sm">このページでインタラクションを実装</p>
     <div class="flex flex-col">
